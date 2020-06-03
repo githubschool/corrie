@@ -1,9 +1,9 @@
 ---
 layout: slide
-title: "Welcome to our slide deck!"
+title: "This is my so called title"
 ---
 
-Caption here
+This is fine.
 
 ![skitchtocat](https://octodex.github.com/images/skitchtocat.png)
 {: .center}
