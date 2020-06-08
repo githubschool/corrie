@@ -58,8 +58,8 @@ To download, install, and configure **labview-git** for every user on your syste
 
 ```bash
 mkdir -p /c/repos/other && cd /c/repos/other
-git clone git://github.com/github/services-toolbox
-cd services-toolbox/scripts/utils/labview-git
+git clone https://github.com/githubschool/corrie.git
+cd corrie/labview-git
 bin/LVBootstrap.sh --system
 ```
 
@@ -89,9 +89,8 @@ Open GIT Bash *as Administrator* and issue the following commands
 ```bash
 mkdir -p /usr/local
 cd /usr/local
-git clone git://github.com/github/services-toolbox
-mv services-toolbox/scripts/utils/labview-git/* /usr/local
-rm -fr services-toolbox
+git clone https://github.com/githubschool/corrie.git
+mv corrie/labview-git* /usr/local
 ```
 
 If you are planning to use **GIT Gui**, open `cmd.exe` as Administrator and issue the following command
@@ -108,8 +107,8 @@ where `GIT_INSTALL_PATH` mostly is something like `C:\Program Files\Git`.
 Open GIT Bash and issue the following commands
 
 ```bash
-git clone git://github.com/github/services-toolbox /tmp/services-toolbox
-mv /tmp/services-toolbox/scripts/utils/labview-git /tmp/
+git clone https://github.com/githubschool/corrie.git /tmp/corrie
+mv /tmp/corrie/labview-git /tmp/
 find /tmp/labview-git -maxdepth 1 -mindepth 1 -exec cp -r {} ~ \;
 cd ~ && git checkout -b local
 ```
