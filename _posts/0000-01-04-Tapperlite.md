@@ -1,9 +1,9 @@
 ---
 layout: slide
-title: "Welcome to our slide deck!"
+title: "I need coffee NOW!"
 ---
 
-Caption here
+Happy Hump Day !!
 
 ![riddlocat](https://octodex.github.com/images/riddlocat.png)
 {: .center}
